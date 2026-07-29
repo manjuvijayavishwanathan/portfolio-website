@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#97d1f8;
+    color:#000000;
+    line-height:1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    background:linear-gradient(135deg,#ffffff,#a4d4fc);
+    color:black;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+nav{
+    background:#222;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+
+
+/* ===========================
+   SECTION
+=========================== */
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+
+/* ===========================
+   PROFILE IMAGE
+=========================== */
+
+.profile-image{
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    display:block;
+
+    margin:20px auto;
+
+    border:5px solid #f77f00;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+/* ===========================
+   PARAGRAPH
+=========================== */
+
+p{
+    margin:10px 0;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:white;
+    color:black;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background: white;
+}
+
+tr:hover{
+    background:white;
+}
+
+/* ===========================
+   LIST
+=========================== */
+
+ul{
+    padding-left:25px;
+}
+
+li{
+    margin:12px 0;
+}
+
+/* ===========================
+   ARTICLES
+=========================== */
+
+article{
+    background:#fafafa;
+    border-left:5px solid #a4d4fc;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+article:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   GALLERY
+=========================== */
+
+.gallery{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:20px;
+
+}
+
+.gallery img{
+
+    width:auto;
+
+    height:auto;
+    max-width:100%;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+    transition:.3s;
+
+}
+
+.gallery img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+label{
+    font-weight:600;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+input[type="submit"]{
+    width:auto;
+    background:#d62828;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+input[type="submit"]:hover{
+    background:#a4133c;
+}
+
+input[type="reset"]{
+    width:auto;
+    background:#555;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+input[type="reset"]:hover{
+    background:black;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer p{
+    margin:10px 0;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:35px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav a{
+    display:block;
+    margin:12px 0;
+}
+
+.profile-image{
+    width:200px;
+    height:200px;
+}
+
+.gallery img{
+    width:100%;
+    height:auto;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width:100%;
+    margin:10px 0;
+}
+
+}
