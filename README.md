@@ -14,9 +14,6 @@ The portfolio includes sections such as Home, About Me, Projects, Skills, and Co
 👨‍🏫 Acknowledgement
 
 I would like to thank my Mentor @Vimal4hckr for their valuable guidance and support throughout the development of this project.
-
-
-📎 Author
-
-Manju Vijaya P V
+Mentor: @Vimal4hckr
+Author: @manjuvijayavish1
 
